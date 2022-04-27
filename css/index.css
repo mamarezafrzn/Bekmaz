@@ -1,0 +1,464 @@
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+.backGround {
+  padding: 143px 16px;
+  background-color: rgb(224, 224, 200);
+}
+.container {
+  background-color: beige;
+
+  width: 100%;
+  height: auto;
+}
+
+/*-------------------------header--------------------------*/
+
+.header {
+  width: 95%;
+  min-height: 274px;
+  margin: 0px auto;
+}
+.headerImage {
+  width: 106px;
+  height: 106px;
+  background-image: linear-gradient(
+    rgba(69, 171, 159, 0.8),
+    rgba(229, 169, 176, 0.8)
+  );
+  border-radius: 20px;
+  margin: 0px auto;
+}
+.headerText {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+.headerText h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(69, 171, 159, 1);
+  line-height: 38.75px;
+  margin-bottom: 0px;
+}
+.headerText h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(229, 169, 176, 1);
+  text-align: center;
+  font-style: normal;
+  line-height: 15.5px;
+  margin: 16px auto 0px;
+}
+.headerText h6 {
+  float: left;
+}
+.socialMedia {
+  width: 100%;
+  margin-top: -5px;
+}
+
+.socialFirstline {
+  width: 37%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.socialFirstline div {
+  min-width: 106px;
+  height: 30px;
+}
+.socialSecondline {
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+}
+.socialSecondline div {
+  min-width: 106px;
+  height: 30px;
+}
+.socialMedia img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 25px 5px 0px 0px;
+}
+.socialMedia h6 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 11px;
+  font-style: normal;
+}
+
+/*-----------------------------About Me---------------------------*/
+
+.aboutMe {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  border-radius: 12px;
+  margin: 80px auto 40px;
+  padding: 16px;
+}
+
+.aboutMe h3 {
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 77.5%;
+  color: #959a9b;
+  text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  margin: 0px 0px 32px;
+}
+
+.aboutMe p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #09444d;
+}
+
+/*-------------------------------My journey------------------------------*/
+#sideStaticCard {
+  display: none;
+  width: 25%;
+  height: 327px;
+  background-color: white;
+  float: right;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+.bodyContainer {
+  width: 100%;
+}
+.myJourney {
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.myJourney h3 {
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 77.5%;
+  color: #959a9b;
+  text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  margin: 0px 0px 32px;
+}
+.journeyBox {
+  text-align: left;
+  width: 95%;
+  margin: 0px auto;
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 300px;
+  border: 1px solid white;
+}
+.myJourney .journeyBox:hover {
+  background-color: rgba(247, 251, 251, 1);
+  border: 1px solid #45ab9f;
+}
+.companyName {
+  margin: 0px;
+}
+.companyName img {
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-right: 10px;
+}
+.companyName h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #09444d;
+  margin: 8px 0px;
+}
+.boxTitle h5 {
+  margin: 0px 0px 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(9, 68, 77, 1);
+}
+.journeyDate {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #09444d;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.journeyDateUntil {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(9, 68, 77, 1);
+}
+.journeyBox p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba(9, 68, 77, 1);
+}
+.myJourney button {
+  margin: 16px auto 0px;
+  padding: 12px 20px;
+  width: 143px;
+  height: 39px;
+  background: #45ab9f;
+  border-radius: 6px;
+  color: white;
+  border: none;
+}
+
+/*--------------------------------Some Activities------------------------*/
+.someActivities {
+  margin: 31px auto;
+  background-color: white;
+  width: 100%;
+  padding: 16px;
+  min-height: 1531px;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+}
+.someActivities h3 {
+  margin: 0px 0px 80px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 77.5%;
+  color: #959a9b;
+  text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+}
+.someActivities ul {
+  list-style-image: url("../images/ul.svg");
+  padding: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 0px;
+  color: #7e8485;
+}
+.someActivities li:not(:last-child) {
+  margin-bottom: 32px;
+}
+.someActivities p {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #09444d;
+}
+
+/*-------------------------education---------------------*/
+.education {
+  width: 100%;
+  min-height: 1905px;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+}
+.education h3 {
+  margin: 0px 0px 80px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 77.5%;
+  color: #959a9b;
+  text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+}
+.educationBox {
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 32px;
+}
+.universityBox {
+  width: 55%;
+  text-align: left;
+  padding: 0px;
+  margin: 0px 0px 48px;
+}
+.universityBox img {
+  width: 77px;
+  height: 77px;
+}
+.universityBox h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 8px 0px;
+  color: #09444d;
+}
+.universityField {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  margin: 0px 0px 2px;
+  color: #09444d;
+}
+.universityDate {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0px 5px 0px 0px;
+  color: #09444d;
+}
+.dateUntil {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0px;
+  color: #09444d;
+}
+.education p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 8px 0px;
+  color: #09444d;
+}
+
+/*-----------------------------------------More------------------------------------*/
+.more {
+  width: 100%;
+  min-height: 211px;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  margin-top: 32px;
+}
+.more p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #09444d;
+}
+.more button {
+  background: #45ab9f;
+  border-radius: 6px;
+  border: none;
+  width: 244px;
+  height: 39px;
+  padding: 12px 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 77.5%;
+  color: #ffffff;
+}
+
+/*--------------------------------------------Desktop-------------------------------*/
+
+@media only screen and (min-width: 1024px) {
+  /*-----------------header------------*/
+  .headerImage {
+    width: 229.33px;
+    height: 215px;
+  }
+  .headerText h1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+  }
+  .headerText h4 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .socialMedia {
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+  }
+
+  .socialFirstline {
+    width: 39%;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .socialSecondline {
+    width: 50%;
+    flex-direction: row-reverse;
+    justify-content: end;
+  }
+
+  .socialMedia img {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 25px 10px 0px 40px;
+  }
+
+  /*------------------------About Me-------------------------*/
+
+  .aboutMe {
+    width: 80%;
+    border-radius: 12px;
+    margin: 68px auto;
+    padding: 40px;
+  }
+
+  /*-----------------------------my journey--------------------------------*/
+  .bodyContainer {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .bodyContainer section{
+    width: 70%;
+  }
+  #sideStaticCard {
+    display: block;
+  }
+  .someActivities{
+    margin: 31px 0px;
+  }
+}
