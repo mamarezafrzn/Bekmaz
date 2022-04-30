@@ -9,19 +9,20 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
+  background-image: url(../images/bg\ mobile\ bekmaz.com.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 .backGround {
-  padding: 143px 16px;
-  background-color: white;
+  height: 5000px;
 }
 
 .container {
-  background-color: beige;
-
+  padding: 143px 16px;
   width: 100%;
-  height: auto;
+  height: 5000px;
 }
-
 /*-------------------------header--------------------------*/
 
 .header {
@@ -32,13 +33,14 @@ body {
 .headerImage {
   width: 106px;
   height: 106px;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(69, 171, 159, 0.8),
     rgba(229, 169, 176, 0.8)
-  );
+  ); */
   border-radius: 20px;
   margin: 0px auto;
 }
+
 .headerText {
   text-align: center;
   width: 100%;
@@ -138,8 +140,8 @@ body {
 /*-------------------------------My journey------------------------------*/
 #sideStaticCard {
   display: none;
-  width: 25%;
-  height: 327px;
+  width: 28%;
+  min-height: 327px;
   background-color: white;
   float: right;
   box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
@@ -431,9 +433,18 @@ body {
 /*--------------------------------------------Desktop-------------------------------*/
 
 @media only screen and (min-width: 1024px) {
+  body{
+    background-image: url(../images/bg\ bekmaz.com.svg);
+    background-size: contain;
+  }
   /*-----------------header------------*/
   .headerImage {
     width: 229.33px;
+    height: 215px;
+    text-align: center;
+  }
+  .headerImage img{
+    width: 230px;
     height: 215px;
   }
   .headerText h1 {
