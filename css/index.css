@@ -14,34 +14,13 @@ body {
   padding: 143px 16px;
   background-color: white;
 }
-/*--------------------------------pattern-----------------------------------*/
-.nimdayere{
-  background-color: red;
-  transform: rotate(45deg);
-  width: 143px;
-  height: 71.5px;
-  border-top-left-radius: 71.5px;
-  border-top-right-radius: 71.5px;
-}
-.shape{
-  width: 71px;
-  height: 71px;
-  background: blue;
-  border-radius: 0 100% 0 0;
-transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
-}
-.circle{
-  width: 143px;
-  height: 143px;
-  background-color: #45ab9f;
-  border-radius: 100%;
-}
-/* .container {
+
+.container {
   background-color: beige;
 
   width: 100%;
   height: auto;
-} */
+}
 
 /*-------------------------header--------------------------*/
 
@@ -95,7 +74,7 @@ transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: flex-end;
   align-items: flex-start;
 }
 
@@ -159,7 +138,7 @@ transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
 /*-------------------------------My journey------------------------------*/
 #sideStaticCard {
   display: none;
-  width: 30%;
+  width: 25%;
   height: 327px;
   background-color: white;
   float: right;
@@ -419,6 +398,35 @@ transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
   line-height: 77.5%;
   color: #ffffff;
 }
+/*--------------------------------------------Tablet--------------------------------*/
+@media only screen and (min-width: 700px){
+  /*----------------------header---------------*/
+  .socialMedia {
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+    display: inline-flex;
+  }
+
+  .socialFirstline {
+    width: 51%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .socialSecondline {
+    width: 66%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .socialMedia img {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 25px 10px 0px 40px;
+  }
+}
 
 /*--------------------------------------------Desktop-------------------------------*/
 
@@ -444,7 +452,7 @@ transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
   }
 
   .socialFirstline {
-    width: 50%;
+    width: 52%;
     flex-direction: row;
     justify-content: end;
   }
@@ -548,5 +556,9 @@ flex-direction: column;
 
   .someActivities {
     margin: 31px 0px;
+    min-height: 980px;
+  }
+  .education{
+    min-height: 1400px;
   }
 }
