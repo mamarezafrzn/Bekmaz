@@ -5,6 +5,9 @@
 * {
   box-sizing: border-box;
 }
+button{
+  cursor: pointer;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -176,6 +179,7 @@ body {
   margin: 0px 0px 32px;
 }
 .journeyBox {
+  transition: all ease-in-out 0.35s;
   text-align: left;
   width: 95%;
   margin: 0px auto;
