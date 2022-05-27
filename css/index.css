@@ -57,7 +57,8 @@ p {
 }
 /*------------------------sticky mobile--------------------*/
 #stickyMobile{
-  width: 100%;
+  margin: 0px auto;
+  width: 95%;
   min-height: 120px;
   padding: 8px 16px 16px;
   background-color: #ffffff;
@@ -359,7 +360,7 @@ color: #E5A9B0;
   background-color: white;
   width: 100%;
   padding: 16px;
-  min-height: 1331px;
+  min-height: 750px;
   box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
@@ -399,7 +400,7 @@ color: #E5A9B0;
 /*-------------------------education---------------------*/
 .education {
   width: 100%;
-  min-height: 850px;
+  min-height: 750px;
   padding: 16px;
   border-radius: 12px;
   background-color: white;
@@ -478,7 +479,7 @@ color: #E5A9B0;
 /*-----------------------------------------More------------------------------------*/
 .more {
   width: 100%;
-  min-height: 211px;
+  min-height: 300px;
   border-radius: 12px;
   padding: 40px;
   text-align: center;
@@ -562,17 +563,22 @@ color: #E5A9B0;
   }
   .headerText h1 {
     font-size: 100px;
+    font-weight: 700;
     margin-bottom: 40px;
   }
-  .headerText h4 {
-    font-size: 40px;
+  .headerText h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
     margin-top: 30px;
   }
   .socialMedia {
-    width: 70%;
+    width: 95%;
     margin: 5px auto;
     text-align: center;
     display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .socialFirstline {
@@ -661,7 +667,7 @@ color: #E5A9B0;
     align-items: flex-start;
   }
   #sideCardContact div {
-    margin: 0px;
+    margin: 0px 0px 16px;
     padding: 0px;
   }
   #sideCardContact img {
@@ -681,10 +687,10 @@ color: #E5A9B0;
 
   .someActivities {
     margin: 31px 0px;
-    min-height: 980px;
+    min-height: 580px;
   }
   .education {
-    min-height: 1400px;
+    min-height: 750px;
   }
   .more {
     margin-bottom: 24px;
