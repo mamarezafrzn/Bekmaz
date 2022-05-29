@@ -10,9 +10,9 @@
   <body>
     <div class="backGround">
       <div class="container">
-        <div id="stickyMobile" onclick={stickyMenu()}>
+        <div id="stickyMobile"  onclick={stickyMenu()}>
           <img id="stickyIcon" src="./images//drag_handle.svg" alt="">
-          <div id="showHide">
+          <div id="showHide" class="notShowSticky">
             <h6>you can contact me with these IDs</h6>
               <div class="contactMe">
                 <div>
@@ -90,7 +90,7 @@
           <section id="sideStaticCard">
             <header id="sideCardHeader">
               <img src="./images/bekmaz.svg" alt="" />
-              <h2 id="cardbekmaz">Ali<br />Bekmaz</h2>
+              <h2 id="cardbekmaz">Ali Bekmaz</h2>
               <h4>UI & UX Designer / Consultant</h4>
             </header>
             <p>you can Contact me with these IDs</p>
@@ -351,14 +351,16 @@
 
   <script>
     function stickyMenu(){ 
-  
-    if(document.getElementById('showHide').style.display == 'block'){
-        document.getElementById('showHide').style.display = 'none';
-        document.getElementById('showHide').style.height = '0px';
-    }else{
 
-        document.getElementById('showHide').style.display = 'block';
-        document.getElementById('showHide').style.height = 'auto';
+    if(document.getElementById('showHide').style.opacity == '1'){
+        // document.getElementById('showHide').style.display = 'none';
+        document.getElementById('showHide').style.height = '0px';
+        document.getElementById('showHide').style.opacity = '0';
+        
+    }else{
+      // document.getElementById('showHide').style.display = 'block';
+        document.getElementById('showHide').style.opacity = '1';
+        document.getElementById('showHide').style.height = '220px';
     }
 }
 
