@@ -1,0 +1,845 @@
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Regular.ttf");
+}
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Light.ttf");
+  font-weight:300;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  background-image: url(../images/bg\ mobile\ bekmaz.com.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h3 {
+  font-family: "rubik" !important;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 77.5%;
+  text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+}
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}
+h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+h6 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 162%;
+}
+.backGround {
+  height: auto;
+}
+p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.container {
+  padding: 143px 24px;
+  width: 100%;
+  height: auto;
+}
+/*------------------------sticky mobile--------------------*/
+#stickyMobile{
+  margin: 0px auto;
+  width: 100%;
+  min-height: 120px;
+  padding: 8px 16px 24px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px 12px 0px 0px;
+  position: -webkit-contactMesideCardContactfixed !important;
+  position: fixed !important;
+  bottom: 0px;
+  z-index: 10;
+  
+}
+#clickable{
+  cursor: pointer;
+
+}
+#stickyIcon{
+  display: block;
+  margin: 0px auto;
+}
+#showHide h6{
+  margin:0px;
+}
+#Info{
+  width: 100%;
+  display: flex ;
+  align-items: center;
+  margin-top: 8px;
+  background-color: #FFFFFF;
+  z-index: 15;
+}
+#Info img{
+  width: 62px;
+  height: 62px;
+  border-radius: 10px;
+  margin-right: 16px;
+}
+#Info div{
+
+}
+#stickyHeader{
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+color: #45AB9F;
+margin: 0px;
+}
+#stickyJob{
+  margin: 0px;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #E5A9B0;
+}
+.contactMe{
+  margin: 24px;
+}
+.contactMe div{
+  display: flex;
+  align-items: center;
+  height: 30px;
+margin-bottom: 16px;
+}
+.contactMe div img{
+  margin-right: 10px;
+}
+#showHide{
+  height: 0px;
+  opacity: 0;
+  transition: height 0.1s linear;
+  z-index: -1 !important;
+}
+
+/*-------------------------header--------------------------*/
+
+.header {
+  width: 78%;
+  min-height: 274px;
+  margin: 0px auto;
+}
+.headerImage {
+  width: 106px;
+  height: 106px;
+  /* background-image: linear-gradient(
+    rgba(69, 171, 159, 0.8),
+    rgba(229, 169, 176, 0.8)
+  ); */
+  border-radius: 20px;
+  margin: 0px auto;
+}
+
+.headerText {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+.headerText h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(69, 171, 159, 1);
+  line-height: 38.75px;
+  margin-bottom: 0px;
+}
+.headerText h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(229, 169, 176, 1);
+  text-align: center;
+  font-style: normal;
+  line-height: 15.5px;
+  margin: 16px auto 0px;
+}
+.headerText h6 {
+  float: left;
+}
+.socialMedia {
+  width: 95%;
+  margin: 10px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 0px !important;
+}
+
+/* .socialFirstline {
+  width: 37%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: flex-start;
+} */
+
+.socialMedia div {
+  min-width: 106px;
+  height: 30px;
+  margin-bottom: 16px;
+}
+/* .socialSecondline {
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+} */
+/* .socialSecondline div {
+  min-width: 106px;
+  height: 30px;
+} */
+.socialMedia img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 25px 8px 0px 0px;
+}
+.socialMedia h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  font-style: normal;
+}
+
+/*-----------------------------About Me---------------------------*/
+
+.aboutMe {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  border-radius: 12px;
+  margin: 31px auto 40px;
+  padding: 32px 16px;
+  gap: 32px;
+}
+
+.aboutMe h3 {
+  font-style: normal;
+  /* font-size: 40px;
+  font-weight: 400;
+  line-height: 77.5%; */
+  color: #959a9b;
+  /* text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15); */
+  margin: 0px 0px 32px;
+}
+
+.aboutMe p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #09444d;
+}
+
+/*-------------------------------My journey------------------------------*/
+#sideStaticCard {
+  display: none;
+  width: 25%;
+  min-height: 327px;
+  background-color: #FFFFFF;
+  float: right;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 24px;
+  padding: 24px;
+}
+.bodyContainer {
+  width: 100%;
+}
+.myJourney {
+  width: 100%;
+  padding: 32px 16px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.myJourney h3 {
+  text-align: left;
+  /* font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 77.5%; */
+  color: #959a9b;
+  /* text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15); */
+  margin: 0px 0px 32px;
+}
+.journeyBox {
+  transition: all ease-in-out 0.35s;
+  text-align: left;
+  width: 95%;
+  margin: 0px auto;
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 300px;
+  border: 1px solid white;
+  margin-bottom: 24px;
+}
+.myJourney .journeyBox:hover {
+  background-color: rgba(247, 251, 251, 1);
+  border: 1px solid #45ab9f;
+}
+.companyName {
+  margin: 0px;
+}
+.companyName img {
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-right: 10px;
+}
+.companyName h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  /* line-height: 28px; */
+  color: #09444d;
+  margin: 6px 0px;
+}
+.boxTitle h5 {
+  margin: 0px 0px 4px;
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px; */
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(9, 68, 77, 1);
+}
+/* .journeyDate {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #09444d;
+  margin-top: 0px;
+  margin-bottom: 8px;
+} */
+.journeyDateUntil {
+  margin: 0px;
+  /* font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px; */
+  color: rgba(9, 68, 77, 1);
+}
+.journeyBox p {
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px; */
+  color: rgba(9, 68, 77, 1);
+}
+.myJourney button {
+  margin: 16px auto 0px;
+  padding: 12px 20px;
+  width: 143px;
+  height: 39px;
+  background: #45ab9f;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  height: auto;
+  font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+}
+
+/*--------------------------------Some Activities------------------------*/
+.someActivities {
+  margin: 31px auto;
+  background-color: white;
+  width: 100%;
+  padding: 32px 16px;
+  min-height: 750px;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+}
+.someActivities h3 {
+  margin: 0px 0px 32px;
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 77.5%; */
+  color: #959a9b;
+  /* text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15); */
+}
+.someActivities ul {
+  list-style-image: url("../images/Frame\ 41.svg");
+  
+  padding: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 0px;
+  color: #7e8485;
+}
+.someActivities li:not(:last-child) {
+  margin-bottom: 32px;
+}
+.someActivities p {
+  margin: 0px;
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: 22px; */
+  line-height: 26px;
+  color: #09444d;
+}
+
+/*-------------------------education---------------------*/
+.education {
+  width: 100%;
+  min-height: 750px;
+  padding: 32px 16px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+}
+.education h3 {
+  margin: 0px 0px 80px;
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 77.5%; */
+  color: #959a9b;
+  /* text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15); */
+}
+.educationBox {
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 8px;
+}
+.universityBox {
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  margin: 0px 0px 8px;
+  display: flex;
+  align-items: center;
+}
+.universityBox img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+.universityBox h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 8px 0px;
+  color: #09444d;
+}
+.universityField {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 32px 0px 2px;
+  color: #09444d;
+}
+/* .universityDate {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0px 5px 0px 0px;
+  color: #09444d;
+} */
+.dateUntil {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px;
+  color: #09444d;
+}
+.education p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 8px 0px;
+  color: #09444d;
+}
+
+/*-----------------------------------------More------------------------------------*/
+.more {
+  width: 100%;
+  min-height: 300px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  backdrop-filter: blur(10px);
+  margin-top: 32px;
+
+}
+.more p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #09444d;
+  margin:0px 0px 40px
+}
+.more button {
+  background: #45ab9f;
+  border-radius: 6px;
+  border: none;
+  width: 244px;
+  height: 39px;
+  padding: 12px 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 77.5%;
+  color: #ffffff;
+}
+/*--------------------------------------------Tablet--------------------------------*/
+@media only screen and (min-width: 700px) {
+  /*----------------------header---------------*/
+  .socialMedia {
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+    display: inline-flex;
+  }
+
+  .socialFirstline {
+    width: 51%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .socialSecondline {
+    width: 66%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .socialMedia img {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 25px 10px 0px 40px;
+  }
+
+}
+
+/*--------------------------------------------Desktop-------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-image: url(../images/bg\ bekmaz.com.svg);
+    background-size: contain;
+  }
+  .container {
+    padding: 143px 0px;
+
+  }
+  /*-----------------header------------*/
+  .headerImage {
+    width: 229.33px;
+    height: 215px;
+    text-align: center;
+  }
+  .headerImage img {
+    width: 230px;
+    height: 215px;
+  }
+  .headerText h1 {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .headerText h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+    letter-spacing: 0.13em;
+  }
+  .socialMedia {
+    width: 95%;
+    margin: 32px auto 0px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .socialMedia h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+  }
+
+  /* .socialFirstline {
+    width: 52%;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .socialSecondline {
+    width: 66%;
+    flex-direction: row;
+    justify-content: flex-start;
+  } */
+
+  .socialMedia img {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 0px 15px 0px 0px;
+  }
+
+  /*------------------------About Me-------------------------*/
+
+  .aboutMe {
+    width: 80%;
+    border-radius: 12px;
+    margin: 80px auto;
+    padding: 40px;
+    box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+backdrop-filter: blur(10px);
+  }
+  .aboutMe h3{
+    margin-bottom: 16px;
+  }
+
+  /*-----------------------------my journey--------------------------------*/
+  .myJourney{
+    width: 73%;
+    padding: 40px;
+    box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+backdrop-filter: blur(10px);
+  }
+  .myJourney h3{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 100%;
+    margin-bottom: 40px;
+    text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+  }
+  .journeyBox{
+    margin: 0px 0px 24px !important;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    min-height: 100px;
+  }
+  .boxTitle{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly !important;
+    margin-top: 0px;
+    width: 30%;
+    padding: 0px;
+
+  }
+  .boxTitle h5{
+    margin-bottom: 17px;
+  }
+  .journeyBox p{
+    width: 70%;
+    margin: 0px;
+  }
+  .companyName{
+    margin-bottom:17px ;
+  }
+  .bodyContainer {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .bodyContainer section {
+    width: 70%;
+  }
+ 
+  #sideCardHeader {
+    width: 95%;
+    height: 30%;
+    text-align: left;
+  }
+  #sideCardHeader img {
+    width: 101px;
+    height: 101px;
+    border-radius: 10px;
+    margin: 0px 16px 0px 0px;
+
+  }
+  #cardbekmaz {
+    width: 100%;
+    margin: 16px 0px 0px;
+    padding: 0px;
+    display: inline-block;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #45ab9f !important;
+  }
+  #sideCardHeader h4 {
+    margin: 0px 0px 24px;
+    padding: 0;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #e5a9b0;
+  }
+  #sideStaticCard p {
+    margin: 0px 0px 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #09444d;
+  }
+  #sideCardContact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #sideCardContact div {
+    margin: 0px 0px 16px;
+    padding: 0px;
+  }
+  #sideCardContact img {
+    margin: 3px 8px -7px 0px;
+    width: 20px;
+    height: 20px;
+  }
+  #sideCardContact p {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 77.5%;
+    /* color: #e5a9b0; */
+    margin: 0px;
+  }
+
+  .someActivities {
+    background-color: #FFFFFF;
+    width: 73%;
+    margin: 31px 0px 80px;
+    min-height: 480px;
+    padding: 40px;
+    box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
+backdrop-filter: blur(10px);
+border-radius: 12px;
+  }
+  .someActivities li{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  .someActivities p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .someActivities h3{
+    margin-bottom: 40px;
+  }
+  .someActivities ul{
+    margin-top: 0px;
+  }
+  .education {
+    width: 73%;
+    min-height: 550px;
+    padding: 40px 40px 0px;
+  }
+  .education h3{
+    margin-bottom: 40px;
+  }
+  .educationBox{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0px 0px 40px;
+    padding: 0%;
+  }
+
+
+  .universityField{
+    width: 55%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+  }
+  .universityBox{
+    width: 40%;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+  .dateUntil{
+    width: 25%;
+  }
+  .more {
+    margin-bottom: 24px;
+    width: 100% ;
+  }
+  #sideStaticCard {
+    display: block;
+  }
+  #stickyMobile{
+    display: none;
+  }
+}
