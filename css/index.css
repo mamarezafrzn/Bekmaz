@@ -583,6 +583,7 @@ line-height: 26px;
   body {
     background-image: url(../images/bg\ bekmaz.com.svg);
     background-size: contain;
+background:round;
   }
   .container {
     padding: 143px 0px;
