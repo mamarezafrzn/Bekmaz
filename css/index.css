@@ -25,6 +25,7 @@ body {
   background-image: url(../images/bg\ mobile\ bekmaz.com.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  /* background: round; */
 }
 h3 {
   font-family: "rubik" !important;
@@ -581,13 +582,13 @@ line-height: 26px;
 
 @media only screen and (min-width: 1200px) {
   body {
-    background-image: url(../images/bg\ bekmaz.com.svg);
-    background-size: contain;
-background:round;
+background-image: none;
+/* background:round; */
   }
   .container {
     padding: 143px 0px;
-
+    background-image: url(../images/bg\ bekmaz.com.svg);
+ 
   }
   /*-----------------header------------*/
   .headerImage {
