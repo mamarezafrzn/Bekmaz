@@ -15,6 +15,10 @@
 * {
   box-sizing: border-box;
 }
+a{
+  text-decoration: none !important;
+  color: unset;
+}
 button {
   cursor: pointer;
 }
@@ -78,10 +82,12 @@ p {
   border-radius: 12px 12px 0px 0px;
   position: -webkit-contactMesideCardContactfixed !important;
   position: fixed !important;
-  bottom: 0px;
+  bottom: -250px;
+
   z-index: 10;
   
 }
+
 #clickable{
   cursor: pointer;
 
@@ -128,6 +134,9 @@ color: #E5A9B0;
 }
 .contactMe{
   margin: 24px;
+}
+.contactMe a{
+  display: flex;
 }
 .contactMe div{
   display: flex;

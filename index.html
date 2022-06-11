@@ -68,21 +68,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h6>you can contact me with these IDs</h6>
             <div class="contactMe">
               <div>
-                <img src="./images/phone.svg" alt="" />
-                <h6>+98 920 122 1242</h6>
+                <a href="tel:+989201221242">
+                  <img src="./images/phone.svg" alt="" />
+
+                  <h6>+98 920 122 1242</h6>
+                </a>
               </div>
               <div>
-                <img src="./images/sms.svg" alt="" />
-                <h6>Alibekmaz@yahoo.com</h6>
+                <a href="mailto:contact@alibekmaz.com">
+                  <img src="./images/sms.svg" alt="" />
+
+                  <h6>contact@alibekmaz.com</h6>
+                </a>
               </div>
 
               <div>
-                <img src="./images/instagram.svg" alt="" />
-                <h6>AliBekmaz</h6>
+                <a href="https://www.instagram.com/alibekmaz/" target="_blank">
+                  <img src="./images/instagram.svg" alt="" />
+
+                  <h6>AliBekmaz</h6>
+                </a>
               </div>
               <div>
-                <img src="./images/linked_in.svg" alt="" />
-                <h6>AliBekmaz</h6>
+                <a href="https://www.linkedin.com/in/alibekmaz/" target="_blank">
+                  <img src="./images/linked_in.svg" alt="" />
+                  <h6>AliBekmaz</h6>
+
+                </a>
               </div>
             
           </div>
@@ -106,21 +118,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h2>UI & UX Designer / Consultant</h2>
             <div class="socialMedia">
               <div>
+                <a href="tel:+989201221242">
                 <img src="./images/phone.svg" alt="" />
                 <h6>+98 920 122 1242</h6>
+              </a>
               </div>
               <div>
+                <a href="mailto:contact@alibekmaz.com">
                 <img src="./images/sms.svg" alt="" />
-                <h6>Alibekmaz@yahoo.com</h6>
+                <h6>contact@alibekmaz.com</h6>
+              </a>
               </div>
 
               <div>
+                <a href="https://www.instagram.com/alibekmaz/" target="_blank">
                 <img src="./images/instagram.svg" alt="" />
                 <h6>AliBekmaz</h6>
+              </a>
               </div>
               <div>
+                <a href="https://www.linkedin.com/in/alibekmaz/" target="_blank">
                 <img src="./images/linked_in.svg" alt="" />
                 <h6>AliBekmaz</h6>
+              </a>
               </div>
             </div>
           </div>
@@ -150,20 +170,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p>you can Contact me with these IDs</p>
             <div id="sideCardContact">
               <div>
-                <img src="./images/phone.svg" alt="" />
-                <p>+98 920 122 1242</p>
+                <a href="tel:+989201221242">
+                  <img src="./images/phone.svg" alt="" />
+                  <p>+98 920 122 1242</p>
+
+                </a>
               </div>
               <div>
+                <a href="mailto:contact@alibekmaz.com">
                 <img src="./images/sms.svg" alt="" />
-                <p>Alibekmaz@yahoo.com</p>
+                <p>contact@alibekmaz.com</p>
+              </a>
               </div>
               <div>
+                <a href="https://www.instagram.com/alibekmaz/" target="_blank">
                 <img src="./images/instagram.svg" alt="" />
                 <p>Ali Bekmaz</p>
+                </a>
               </div>
               <div>
+                <a href="https://www.linkedin.com/in/alibekmaz/" target="_blank">
                 <img src="./images/linked_in.svg" alt="" />
                 <p>Ali Bekmaz</p>
+              </a>
               </div>
             </div>
           </section>
@@ -279,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 charity from wireframe to prototype.
               </p>
             </div>
-            <button>Load More</button>
+            <button>Read More</button>
           </section>
           <section class="someActivities">
             <h3>Some Activities</h3>
@@ -419,6 +448,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 }
 function opacity(){
   document.getElementById('showHide').style.opacity = '1';
+}
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  console.log("prev: "+prevScrollpos)
+  console.log("curr: "+currentScrollPos)
+  if (prevScrollpos > currentScrollPos && currentScrollPos < 300) {
+    document.getElementById("stickyMobile").style.bottom = "-250px";
+  } else if(prevScrollpos < currentScrollPos && currentScrollPos > 300) {
+    document.getElementById("stickyMobile").style.bottom = "0";
+
+  }
+  prevScrollpos = currentScrollPos;
 }
   </script>
 </html>
