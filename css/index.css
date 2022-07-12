@@ -306,18 +306,13 @@ margin-bottom: 16px;
 
 .myJourney h3 {
   text-align: left;
-  /* font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
-  line-height: 77.5%; */
   color: #959a9b;
-  /* text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15); */
   margin: 0px 0px 32px;
 }
 .journeyBox {
+  /* width: 95%; */
   transition: all ease-in-out 0.35s;
   text-align: left;
-  width: 95%;
   margin: 0px auto;
   border-radius: 8px;
   padding: 16px;
@@ -348,36 +343,16 @@ margin-bottom: 16px;
 }
 .boxTitle h5 {
   margin: 0px 0px 4px;
-  /* font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px; */
   font-size: 20px;
   font-weight: 400;
   color: rgba(9, 68, 77, 1);
 }
-/* .journeyDate {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 26px;
-  color: #09444d;
-  margin-top: 0px;
-  margin-bottom: 8px;
-} */
+
 .journeyDateUntil {
   margin: 0px;
-  /* font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px; */
   color: rgba(9, 68, 77, 1);
 }
 .journeyBox p {
-  /* font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px; */
   color: rgba(9, 68, 77, 1);
 }
 .myJourney button {
@@ -404,17 +379,11 @@ line-height: 26px;
   min-height: 750px;
   box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
   backdrop-filter: blur(10px);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 12px;
 }
 .someActivities h3 {
   margin: 0px 0px 32px;
-  /* font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 77.5%; */
   color: #959a9b;
-  /* text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15); */
 }
 .someActivities ul {
   list-style-image: url("../images/Frame\ 41.svg");
@@ -432,9 +401,6 @@ line-height: 26px;
 }
 .someActivities p {
   margin: 0px;
-  /* font-style: normal;
-  font-weight: 400;
-  font-size: 22px; */
   line-height: 26px;
   color: #09444d;
 }
@@ -451,12 +417,7 @@ line-height: 26px;
 }
 .education h3 {
   margin: 0px 0px 80px;
-  /* font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 77.5%; */
   color: #959a9b;
-  /* text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15); */
 }
 .educationBox {
   width: 100%;
@@ -492,15 +453,7 @@ line-height: 26px;
   margin: 32px 0px 2px;
   color: #09444d;
 }
-/* .universityDate {
-  display: inline-block;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0px 5px 0px 0px;
-  color: #09444d;
-} */
+
 .dateUntil {
   display: inline-block;
   font-style: normal;
@@ -638,17 +591,7 @@ background-image: none;
     margin: 0px;
   }
 
-  /* .socialFirstline {
-    width: 52%;
-    flex-direction: row;
-    justify-content: end;
-  }
 
-  .socialSecondline {
-    width: 66%;
-    flex-direction: row;
-    justify-content: flex-start;
-  } */
 
   .socialMedia img {
     float: left;
@@ -686,7 +629,6 @@ backdrop-filter: blur(10px);
     text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
   }
   .journeyBox{
-    margin: 0px 0px 24px !important;
     padding: 16px;
     display: flex;
     align-items: flex-start;
@@ -782,7 +724,6 @@ backdrop-filter: blur(10px);
     font-weight: 400;
     font-size: 16px;
     line-height: 77.5%;
-    /* color: #e5a9b0; */
     margin: 0px;
   }
 
