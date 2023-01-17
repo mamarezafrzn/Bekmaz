@@ -10,12 +10,12 @@
 @font-face {
   font-family: Rubik;
   src: url("../fonts/Rubik-Light.ttf");
-  font-weight:300;
+  font-weight: 300;
 }
 * {
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none !important;
   color: unset;
 }
@@ -71,7 +71,7 @@ p {
   height: auto;
 }
 /*------------------------sticky mobile--------------------*/
-#stickyMobile{
+#stickyMobile {
   margin: 0px auto;
   width: 100%;
   min-height: 120px;
@@ -85,69 +85,66 @@ p {
   bottom: -250px;
 
   z-index: 10;
-  
 }
 
-#clickable{
+#clickable {
   cursor: pointer;
-
 }
-#stickyIcon{
+#stickyIcon {
   display: block;
   margin: 0px auto;
 }
-#showHide h6{
-  margin:0px;
+#showHide h6 {
+  margin: 0px;
 }
-#Info{
+#Info {
   width: 100%;
-  display: flex ;
+  display: flex;
   align-items: center;
   margin-top: 8px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 15;
 }
-#Info img{
+#Info img {
   width: 62px;
   height: 62px;
   border-radius: 10px;
   margin-right: 16px;
 }
-#Info div{
-
+#Info div {
 }
-#stickyHeader{
+#stickyHeader {
   font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 100%;
-color: #45AB9F;
-margin: 0px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color: #45ab9f;
+  margin: 0px;
 }
-#stickyJob{
+#stickyJob {
   margin: 0px;
   font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-color: #E5A9B0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #e5a9b0;
 }
-.contactMe{
+.contactMe {
   margin: 24px;
 }
-.contactMe a{
+.contactMe a {
   display: flex;
 }
-.contactMe div{
+.contactMe div {
   display: flex;
   align-items: center;
   height: 30px;
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
-.contactMe div img{
+.contactMe div img {
   margin-right: 10px;
 }
-#showHide{
+#showHide {
   height: 0px;
   opacity: 0;
   transition: height 0.1s linear;
@@ -281,7 +278,7 @@ margin-bottom: 16px;
   display: none;
   width: 25%;
   min-height: 327px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   float: right;
   box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
   backdrop-filter: blur(10px);
@@ -303,7 +300,10 @@ margin-bottom: 16px;
   border-radius: 12px;
   text-align: center;
 }
-
+.devider{
+  display: inline;
+  margin: 0px;
+}
 .myJourney h3 {
   text-align: left;
   color: #959a9b;
@@ -325,6 +325,15 @@ margin-bottom: 16px;
   border: 1px solid #45ab9f;
 }
 .companyName {
+  margin: 0px;
+}
+.journeyDateContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.journeyDateUntilMonth{
   margin: 0px;
 }
 .companyName img {
@@ -366,8 +375,8 @@ margin-bottom: 16px;
   border: none;
   height: auto;
   font-weight: 700;
-font-size: 20px;
-line-height: 26px;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 /*--------------------------------Some Activities------------------------*/
@@ -387,7 +396,7 @@ line-height: 26px;
 }
 .someActivities ul {
   list-style-image: url("../images/Frame\ 41.svg");
-  
+
   padding: 20px;
   font-style: normal;
   font-weight: 300;
@@ -487,7 +496,6 @@ line-height: 26px;
   box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
   backdrop-filter: blur(10px);
   margin-top: 32px;
-
 }
 .more p {
   font-style: normal;
@@ -496,7 +504,7 @@ line-height: 26px;
   line-height: 26px;
   text-align: center;
   color: #09444d;
-  margin:0px 0px 40px
+  margin: 0px 0px 40px;
 }
 .more button {
   background: #45ab9f;
@@ -539,20 +547,18 @@ line-height: 26px;
     height: 24px;
     margin: 25px 10px 0px 40px;
   }
-
 }
 
 /*--------------------------------------------Desktop-------------------------------*/
 
 @media only screen and (min-width: 1200px) {
   body {
-background-image: none;
-/* background:round; */
+    background-image: none;
+    /* background:round; */
   }
   .container {
     padding: 143px 0px;
     background-image: url(../images/bg\ bekmaz.com.svg);
- 
   }
   /*-----------------header------------*/
   .headerImage {
@@ -584,14 +590,12 @@ background-image: none;
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .socialMedia h6{
+  .socialMedia h6 {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     margin: 0px;
   }
-
-
 
   .socialMedia img {
     float: left;
@@ -608,51 +612,98 @@ background-image: none;
     margin: 80px auto;
     padding: 40px;
     box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
-  .aboutMe h3{
+  .aboutMe h3 {
     margin-bottom: 16px;
   }
 
   /*-----------------------------my journey--------------------------------*/
-  .myJourney{
+  .myJourney {
     width: 73%;
     padding: 40px;
     box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
-  .myJourney h3{
+  .myJourney h3 {
     font-size: 50px;
     font-weight: 300;
     line-height: 100%;
     margin-bottom: 40px;
     text-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
   }
-  .journeyBox{
+  .journeyBox {
     padding: 16px;
     display: flex;
     align-items: flex-start;
     min-height: 100px;
-  }
-  .boxTitle{
-    display: flex;
     flex-direction: column;
+  }
+.journeyDateContainer{
+  width: 45%;
+  justify-content: flex-end;
+}
+  .boxTitle {
+    display: flex;
+    flex-direction: row;
     align-content: flex-start;
     justify-content: space-evenly !important;
     margin-top: 0px;
-    width: 30%;
+    width: 100%;
     padding: 0px;
+    gap: 10px;
+  }
+  .devider{
+    display: none;
+    margin: 0px;
+  }
+  .companyTitleDevider {
+    display: block;
+    width: 15%;
+    background: transparent;
+    text-align: center;
+  }
+  .companyTitleDevider span {
+    display: inline;
+    width: 5px;
+    height: 40px;
+    background: transparent;
+    border: 0.5px solid #121212;
+  }
 
+
+  .companyLogoContainer {
+    display: flex;
+    max-width: 56.33%;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: ellipsis;
   }
-  .boxTitle h5{
+
+  .journeyDateUntilMonth {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #09444d;
+  }
+
+  .companyName h4 {
+    margin-top: 0px;
+  }
+  .boxTitle h5 {
     margin-bottom: 17px;
+    width: 100%;
   }
-  .journeyBox p{
+  .journeyBox p {
     width: 70%;
     margin: 0px;
   }
-  .companyName{
-    margin-bottom:17px ;
+  .companyName {
+    margin-bottom: 17px;
+    display: flex;
+    width: 60%;
+    flex-direction: row;
   }
   .bodyContainer {
     width: 90%;
@@ -661,7 +712,7 @@ backdrop-filter: blur(10px);
   .bodyContainer section {
     width: 70%;
   }
- 
+
   #sideCardHeader {
     width: 95%;
     height: 30%;
@@ -672,7 +723,6 @@ backdrop-filter: blur(10px);
     height: 101px;
     border-radius: 10px;
     margin: 0px 16px 0px 0px;
-
   }
   #cardbekmaz {
     width: 100%;
@@ -728,29 +778,29 @@ backdrop-filter: blur(10px);
   }
 
   .someActivities {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 73%;
     margin: 31px 0px 80px;
     min-height: 480px;
     padding: 40px;
     box-shadow: 0px 4px 90px rgba(69, 171, 159, 0.15);
-backdrop-filter: blur(10px);
-border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
   }
-  .someActivities li{
+  .someActivities li {
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
   }
-  .someActivities p{
+  .someActivities p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
   }
-  .someActivities h3{
+  .someActivities h3 {
     margin-bottom: 40px;
   }
-  .someActivities ul{
+  .someActivities ul {
     margin-top: 0px;
   }
   .education {
@@ -758,10 +808,10 @@ border-radius: 12px;
     min-height: 550px;
     padding: 40px 40px 0px;
   }
-  .education h3{
+  .education h3 {
     margin-bottom: 40px;
   }
-  .educationBox{
+  .educationBox {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -770,30 +820,29 @@ border-radius: 12px;
     padding: 0%;
   }
 
-
-  .universityField{
+  .universityField {
     width: 55%;
     margin: 0px;
     padding: 0px;
     font-size: 20px;
   }
-  .universityBox{
+  .universityBox {
     width: 40%;
     margin: 0px 10px 0px 0px;
     display: flex;
     align-items: center;
   }
-  .dateUntil{
+  .dateUntil {
     width: 25%;
   }
   .more {
     margin-bottom: 24px;
-    width: 100% ;
+    width: 100%;
   }
   #sideStaticCard {
     display: block;
   }
-  #stickyMobile{
+  #stickyMobile {
     display: none;
   }
 }
