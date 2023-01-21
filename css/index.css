@@ -335,6 +335,7 @@ p {
 }
 .journeyDateUntilMonth{
   margin: 0px;
+  padding: 0px;
 }
 .companyName img {
   width: 28px;
@@ -358,11 +359,13 @@ p {
 }
 
 .journeyDateUntil {
+  
   margin: 0px;
   color: rgba(9, 68, 77, 1);
 }
 .journeyBox p {
   color: rgba(9, 68, 77, 1);
+  width: 100%;
 }
 .myJourney button {
   margin: 16px auto 0px;
@@ -679,11 +682,15 @@ p {
     overflow: visible;
     text-overflow: ellipsis;
   }
-
+.journeyDateUntil{
+  font-size: 18px;
+  margin-top: -3px;
+}
   .journeyDateUntilMonth {
+
     margin: 0px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 26px;
     color: #09444d;
   }
@@ -696,11 +703,10 @@ p {
     width: 100%;
   }
   .journeyBox p {
-    width: 70%;
+    width: 100%;
     margin: 0px;
   }
   .companyName {
-    margin-bottom: 17px;
     display: flex;
     width: 60%;
     flex-direction: row;
@@ -844,5 +850,17 @@ p {
   }
   #stickyMobile {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .journeyDateContainer{
+    gap: 10px;
+  }
+  .journeyDateUntil{
+    font-size: 20px;
+  }
+  .journeyDateUntilMonth{
+    font-size: 24px;
   }
 }
